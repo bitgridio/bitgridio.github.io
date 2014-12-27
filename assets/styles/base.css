@@ -1,0 +1,11 @@
+html {
+	font-family: Helvetica;
+}
+body {
+	background: url('../images/bkgd.png') center center no-repeat fixed;
+}
+h1 {
+	color: #07C7DD;
+	width: 100%;
+	text-align: center;
+}
