@@ -5,15 +5,21 @@
 </head>
 <body>
 	<div class="container">
-		<h1> Welcome to the Bit Grid IO. </h1>
+		<h1> Welcome to the BitGrid.io </h1>
 	</div>
+	<!-- Start Janus Specific Markup -->
 	<FireBoxRoom>
 		<Assets>
 			<AssetObject id="grid" src="assets/models/grid.obj" mtl="assets/models/grid.mtl" />
 			<AssetImage id="black" src="assets/images/black.gif" />
+			<AssetImage id="semi" src="assets/models/grid/grid.png" />
 		</Assets>
 		<Room skybox_left_id="black" skybox_right_id="black" skybox_front_id="black" skybox_back_id="black" skybox_up_id="black" skybox_down_id="black" default_sounds="false">
 			<Object id="grid" collision_id="grid" locked="true" pos="0 0 0" />
+			<Image id="semi" js_id="613" pos="-3.000000 8.500000 15.000000" xdir="0.000001 0.000000 -1.000000" ydir="0.000000 1.000000 0.000000" zdir="1.000000 0.000000 0.000001" scale="4.900000 8.400000 1.000000" />
+			<Image id="semi" js_id="694" pos="3.000000 8.500000 25.000000" xdir="-0.003922 0.000000 0.999992" ydir="-0.003921 0.999992 -0.000015" zdir="-0.999985 -0.003922 -0.003922" scale="4.900000 8.400000 1.000000" />
+			<Image id="semi" js_id="696" pos="3.000000 8.500000 15.000000" xdir="-0.003922 0.000000 0.999992" ydir="-0.003921 0.999992 -0.000015" zdir="-0.999985 -0.003922 -0.003922" scale="4.900000 8.400000 1.000000" />
+			<Image id="semi" js_id="697" pos="-3.000000 8.500000 24.900000" xdir="-0.003922 0.000000 0.999992" ydir="-0.003921 0.999992 -0.000015" zdir="-0.999985 -0.003922 -0.003922" scale="4.900000 8.400000 1.000000" />
 		</Room>
 	</FireBoxRoom>
 </body>
