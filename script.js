@@ -1,4 +1,4 @@
-const MAIN_IMAGE_URL = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/204379/mosaic_main_d.jpg';
+const MAIN_IMAGE_URL = 'https://images.unsplash.com/photo-1533378134350-e0de811c075a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3302&q=80';
 const MOSAIC_IMAGE_URL = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/204379/mosaic_sheet_a.jpg';
 
 const Utils = {
