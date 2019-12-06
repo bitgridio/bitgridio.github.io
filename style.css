@@ -25,6 +25,7 @@ h1 {
   height: 100%;
   width: calc(100% * 0.57735);
   display: inline-block;
+  background-color: #60D2D9; 
 }
 
 .hexagon:before {
