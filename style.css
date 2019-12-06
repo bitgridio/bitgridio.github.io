@@ -8,3 +8,6 @@ body {
   padding: 5px; 
   display: inline;
 }
+h1 {
+  font-size: 2em;
+}
