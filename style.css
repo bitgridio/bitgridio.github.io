@@ -16,6 +16,10 @@ section {
   font-family: Helvetica;
 }
 
+svg {
+  vertifcal-align: text-bottom;
+}
+
 .contrasted {
   background-color: #60D2D9; 
   padding: 5px; 
